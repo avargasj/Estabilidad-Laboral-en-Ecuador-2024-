@@ -18,7 +18,7 @@ rename p02 Sexo
 rename rama1 sector_laboral 
 
 
-* Primero defines las etiquetas de valores
+* Primero poner las etiquetas de valores
 label define sector_laboral ///
     1  "Agricultura, ganadería, silvicultura y pesca" ///
     2  "Explotación de minas y canteras" ///
@@ -42,7 +42,7 @@ label define sector_laboral ///
     20 "Actividades de los hogares como empleadores de personal doméstico" ///
     21 "Actividades de organizaciones y órganos extraterritoriales"
 
-* Luego asignas la etiqueta a tu variable
+* Luego asignar la etiqueta a la variable
 label values sector_laboral sector_laboral
 
 * Crear variable binaria de estabilidad
